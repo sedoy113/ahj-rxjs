@@ -1,0 +1,72 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.messages {
+    width: 800px;
+    margin: 50px;
+}
+
+.messages_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.messages_clear {
+    width: 100px;
+    padding: 5px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: rgb(47, 121, 138);
+    cursor: pointer;
+}
+
+.messages_counter {
+    margin: 5px 0px 15px;
+}
+
+.messages_counter_num {
+    font-weight: bold;
+}
+
+.messages_list {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    border: 1px solid rgb(0, 65, 109);
+    font-size: 18px;
+}
+
+.messages_item {
+    display: flex;
+    padding: 20px;
+    border-bottom: 1px solid rgb(0, 65, 109);
+}
+
+.messages_item:last-child {
+    border-bottom: none;
+}
+
+.messages_email {
+    width: 270px;
+    margin-right: 20px;
+    word-wrap: break-word;
+}
+
+.messages_subject {
+    flex: 1;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.messages_date {
+    width: 150px;
+    margin-left: 20px;
+}
